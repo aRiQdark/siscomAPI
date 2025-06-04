@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-	dsn := "host=9qasp5v56q8ckkf5dc.leapcellpool.com:6438 port=6438 user=nnfyhdgvfniundezolkl password=yrvqlbrzambcotygiumxfvtktcphed dbname=Koperasi sslmode=require"
+	dsn := "host=9qasp5v56q8ckkf5dc.leapcellpool.com port=6438 user=nnfyhdgvfniundezolkl password=******** dbname=cannocxeunxkvukpqieg sslmode=require"
 	Db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Fatal("error connection DB")
